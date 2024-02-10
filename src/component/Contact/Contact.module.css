@@ -1,0 +1,22 @@
+.line {
+    position: relative;
+  }
+  
+  .lineBefore,
+  .lineAfter {
+    position: absolute;
+    content: "";
+    width: 30%;
+    height: 4px;
+    background-color: rgb(44, 62, 80);
+  }
+  
+  .lineBefore {
+    top: 50%;
+    right: 60%;
+  }
+  
+  .lineAfter {
+    top: 50%;
+    left: 60%;
+  }

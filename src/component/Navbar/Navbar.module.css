@@ -1,0 +1,17 @@
+.navbarColor{
+background-color: rgb(44, 62, 80);
+   display: flex;
+   justify-content: space-between;
+   padding: 50px;
+   
+
+  
+}
+.navbarBrand{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navLinks{
+    font-size: 17px;
+}

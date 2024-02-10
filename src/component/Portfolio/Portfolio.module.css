@@ -1,0 +1,33 @@
+.line {
+    position: relative;
+    color: rgb(44, 62, 80);
+  }
+  
+  .lineBefore,
+  .lineAfter {
+    position: absolute;
+    content: "";
+    width: 30%;
+    height: 4px;
+    background-color: rgb(44, 62, 80);
+  }
+  
+  .lineBefore {
+    top: 50%;
+    right: 60%;
+  }
+  
+  .lineAfter {
+    top: 50%;
+    left: 60%;
+  }
+ .div{
+   opacity: 0;
+   transition: all 1s;
+ }
+ .div:hover{
+    background-color: rgb(41, 177, 151,0.8);
+    opacity: 1;
+    cursor: pointer;
+    
+ }
