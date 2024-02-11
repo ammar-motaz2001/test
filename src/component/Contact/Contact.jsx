@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import style from './Contact.module.css'
-import Footer from '../Footer/Footer'
 export default function Contact() {
   const [userName, setUserName] = useState('');
   const [userEmail, setUserEmail] = useState('');
@@ -84,7 +83,7 @@ export default function Contact() {
         </div>
       </div>
     </div>
-   <Footer/>
+
     </>
   )
 }
