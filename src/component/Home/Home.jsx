@@ -1,7 +1,7 @@
 import React from 'react'
 import imgOne from '../../assets/imgs/avataaars.svg'
 import style from './Home.module.css'
-import Footer from '../Footer/Footer'
+
 export default function Home() {
   return (
    <>
@@ -22,7 +22,7 @@ export default function Home() {
         </div>
        
     </div>
-    <Footer/>
+ 
    </>
   )
 }
