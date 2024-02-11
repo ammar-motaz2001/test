@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
-
+import Footer from '../Footer/Footer'
 // function Root() {
 //   return (
 //     <div className="App">
@@ -27,6 +27,7 @@ export default function Layout() {
     <div>
       <Navbar/>
       <Outlet/>
+      <Footer/>
     </div>
   )
 }
