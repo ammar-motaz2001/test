@@ -3,7 +3,7 @@ import style from './Portfolio.module.css'
 import imgOne from '../../assets/imgs/poert1 (1).png'
 import imgTwo from '../../assets/imgs/port2 (1).png'
 import imgThree from '../../assets/imgs/port3 (1).png'
-import Footer from '../Footer/Footer'
+
 export default function Portfolio() {
   
   return (
@@ -99,7 +99,7 @@ export default function Portfolio() {
     </div>
   </div>
 </div>
-<Footer/>
+
     </>
   )
 }
